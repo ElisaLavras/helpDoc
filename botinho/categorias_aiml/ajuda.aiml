@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>AJUDA</pattern>
+        <template>
+            Oi, deixa eu te ajudar, você esta querendo saber um pouco mais sobre algum sistema, certo?
+            para facilitar digite o nome do sistema e a feature que você gostaria de entender melhor, exemplo:
+            maestro_app + recrutamento!
+        </template>
+    </category>
+    
+</aiml>

@@ -1,0 +1,11 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>SAIR</pattern>
+        <template>
+            Oh vi que você encerrou a coversa, tudo bem, quando quiser voltar a conversar, é só mandar um oi, até mais!
+        </template>
+    </category>
+    
+</aiml>

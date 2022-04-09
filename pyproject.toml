@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "botinho"
+version = "0.1.0"
+description = ""
+authors = ["elisalavras <ae.lavras@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyTelegramBotAPI = "^4.4.0"
+pymongo = "^4.0.1"
+aiml = "^0.9.2"
+python-aiml = "^0.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
