@@ -9,5 +9,46 @@
             maestro_app + recrutamento!
         </template>
     </category>
+
+    <category>
+        <pattern>_ AJUDA *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ AJUDAR *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
     
+    <category>
+        <pattern>_ HELP *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NAO ENTENDI *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NADA FAZ SENTIDO *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NAO GOSTEI *</pattern>
+        <template>
+             <srai>AJUDA</srai>
+        </template>
+    </category>
 </aiml>
