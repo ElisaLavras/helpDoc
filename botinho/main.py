@@ -5,7 +5,6 @@ import util.stringUtil as stringUtil
 
 CHAVE_TELEGRAM = "5156865606:AAEZWIanR3_HSoyUHyDSpHadNwFa2-cw4ek"
 
-
 bot = telebot.TeleBot(CHAVE_TELEGRAM)
 
 def verificar(mensagem):

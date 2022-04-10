@@ -4,7 +4,7 @@
     <category>
         <pattern>OI</pattern>
         <template>
-            Olá, eu sou o bot que vai te ajudar a consultar documentações, o que você gostaria de entender melhor?\n\n
+            Olá, eu sou o bot que vai te ajudar a consultar documentações, o que você gostaria de entender melhor? \n \n
             Para consultar digite (nome da funconalidade ou nome do sistema)+ (categoria desejada) ou clique na opção desejada:
             /sistemas
             /funcionalidades
@@ -85,6 +85,13 @@
 
     <category>
         <pattern>_ BOA TARDE *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+        <category>
+        <pattern>VOLTAR</pattern>
         <template>
              <srai>OI</srai>
         </template>

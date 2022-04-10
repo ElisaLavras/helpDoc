@@ -4,7 +4,7 @@
     <category>
         <pattern>SAIR</pattern>
         <template>
-            Oh vi que você encerrou a coversa, tudo bem, quando quiser voltar a conversar, é só mandar um oi, até mais!
+            Oh vi que você encerrou a coversa, tudo bem, quando quiser voltar a conversar, é só mandar um oi. Até mais!
         </template>
     </category>
 
