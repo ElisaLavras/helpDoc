@@ -4,10 +4,9 @@
     <category>
         <pattern>FUNCIONALIDADES</pattern>
         <template>
-            ""Você escolheu a opção feature, aqui vão algumas dicas, você pode digitar o nome da feature e a categoria que deseja, 
-            mas se quiser pode clicar na opção para listar o que deseja 
+            Você escolheu a opção FUNCIONALIDADES, para consultar digite (nome da funconalidade ou nome do sistema )+ (categoria) ou clique na opção desejada:
             /categorias_funcionalidades
-            /funcionalidades_documentado
+            /funcionalidades_documentadas
             /voltar
             /sair 
         </template> 
@@ -16,10 +15,9 @@
     <category>
         <pattern>SISTEMAS</pattern>
         <template>
-            Você escolheu sistemas, aqui vão algumas dicas, você pode digitar o nome do sistema e a categoria que deseja, 
-            mas se quiser pode clicar na opção para listar o que deseja
+            Você escolheu a opção sistemas, para consultar digite (nome da funconalidade ou nome do sistema )+ (categoria desejada) ou clique na opção desejada:
             /categorias_sistemas
-            /sistemas_documentado
+            /sistemas_documentados
             /voltar
             /sair
         </template>
@@ -28,42 +26,42 @@
     <category>
         <pattern>CATEGORIAS FUNCIONALIDADES</pattern>
         <template>
-            Essas são as categorias de documentações de features
+            Essas são as categorias das funcionalidades:\n
 			buscar_banco
-			você também pode digitar o nome da feature e a categoria que deseja, exemplo recrutamento + requisitos
+			\nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n
 				para sair você pode clicar em /sair
 				para voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 
     <category>
-        <pattern>FUNCIONALIDADES DOCUMENTADO</pattern>
+        <pattern>FUNCIONALIDADES DOCUMENTADAS</pattern>
         <template>
-            Essas são as features documentadas
+            Essas são as funcionalidades documentadas:\n
 			buscar_banco
-			você também pode digitar o nome da feature e a categoria que deseja, exemplo recrutamento + requisitos
+            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n			
 				para sair você pode clicar em /sair
-				para voltar ao inicio vc pode clicar em /voltar
+                para voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 
     <category>
         <pattern>CATEGORIAS SISTEMAS</pattern>
         <template>
-            Essas são as categorias de documentações dos sistemas
+            Essas são as categorias dos sistemas: \n
             buscar_banco
-			você pode digitar o nome do sistema  e a categoria que deseja, exemplo maestroapp + equipe
+            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n		
 				para sair você pode clicar em /sair
 				para voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 
     <category>
-        <pattern>SISTEMAS DOCUMENTADO</pattern>
+        <pattern>SISTEMAS DOCUMENTADOS</pattern>
         <template>
-            Esses são os sistemas documentados
+            Esses são os sistemas documentados: \n
             buscar_banco
-			você pode digitar o nome do sistema e a categoria que deseja, exemplo maestroapp + equipe
+            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n			
 				para sair você pode clicar em /sair
 				para voltar ao inicio vc pode clicar em /voltar
         </template>
