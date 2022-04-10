@@ -7,5 +7,67 @@
             Oh vi que você encerrou a coversa, tudo bem, quando quiser voltar a conversar, é só mandar um oi, até mais!
         </template>
     </category>
+
+    <category>
+        <pattern>_ SAIR *</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
     
+    <category>
+        <pattern>_ TCHAU *</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TCHAU</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADIOS</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ADIOS *</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>XAU</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ XAU *</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BYE *</pattern>
+        <template>
+             <srai>SAIR</srai>
+        </template>
+    </category>
 </aiml>
