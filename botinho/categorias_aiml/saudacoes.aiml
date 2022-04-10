@@ -14,10 +14,79 @@
     </category>
     
     <category>
-        <pattern>TUDO BEM</pattern>
+        <pattern>OLA</pattern>
         <template>
-            Eu sou um robô, sempre estou bem!
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ OLA *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HELLO *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HI *</pattern>
+        <template>
+             <srai>OI</srai>
         </template>
     </category>
     
+    <category>
+        <pattern>E AI</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ E AI *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BOM DIA *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BOA NOITE *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BOA TARDE *</pattern>
+        <template>
+             <srai>OI</srai>
+        </template>
+    </category>
 </aiml>
