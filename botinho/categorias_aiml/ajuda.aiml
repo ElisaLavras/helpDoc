@@ -4,8 +4,8 @@
     <category>
         <pattern>AJUDA</pattern>
         <template>
-            Oi, deixa eu te ajudar, você esta querendo saber um pouco mais sobre algum sistema, certo?\n\n
-            Para facilitar a sua busca, digite o nome do sistema ou o nome da funcionalidade que você gostaria de entender melhor + a categoria referente a sua busca,\n exemplo:\n
+            Oi, deixa eu te ajudar, você esta querendo saber um pouco mais sobre algum sistema, certo? ENTER ENTER
+            Para facilitar a sua busca, digite o nome do sistema ou o nome da funcionalidade que você gostaria de entender melhor + a categoria referente a sua busca, ENTER exemplo: ENTER
             maestro_app + recrutamento
         </template>
     </category>

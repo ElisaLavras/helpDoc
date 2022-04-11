@@ -4,10 +4,10 @@
     <category>
         <pattern>FUNCIONALIDADES</pattern>
         <template>
-            Você escolheu a opção FUNCIONALIDADES, para consultar digite (nome da funconalidade ou nome do sistema )+ (categoria) ou clique na opção desejada:
-            /categorias_funcionalidades
-            /funcionalidades_documentadas
-            /voltar
+            Você escolheu a opção FUNCIONALIDADES, para consultar digite (nome da funconalidade ou nome do sistema )+(categoria) ou clique na opção desejada: ENTER
+            /categorias_funcionalidades ENTER
+            /funcionalidades_documentadas ENTER
+            /voltar ENTER
             /sair 
         </template> 
     </category>
@@ -15,10 +15,10 @@
     <category>
         <pattern>SISTEMAS</pattern>
         <template>
-            Você escolheu a opção sistemas, para consultar digite (nome da funconalidade ou nome do sistema )+ (categoria desejada) ou clique na opção desejada:
-            /categorias_sistemas
-            /sistemas_documentados
-            /voltar
+            Você escolheu a opção SISTEMAS, para consultar digite (nome da funconalidade ou nome do sistema )+(categoria desejada) ou clique na opção desejada: ENTER
+            /categorias_sistemas ENTER
+            /sistemas_documentados ENTER
+            /voltar ENTER
             /sair
         </template>
     </category>
@@ -26,44 +26,44 @@
     <category>
         <pattern>CATEGORIAS FUNCIONALIDADES</pattern>
         <template>
-            Essas são as categorias das funcionalidades:\n
-			buscar_banco
-			\nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n
-				para sair você pode clicar em /sair
-				para voltar ao inicio vc pode clicar em /voltar
+            Essas são as categorias das funcionalidades: ENTER ENTERbuscar_banco 
+            ENTER
+            ENTERVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: 
+				ENTERpara sair você pode clicar em /sair 
+				ENTERpara voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 
     <category>
         <pattern>FUNCIONALIDADES DOCUMENTADAS</pattern>
         <template>
-            Essas são as funcionalidades documentadas:\n
-			buscar_banco
-            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n			
-				para sair você pode clicar em /sair
-                para voltar ao inicio vc pode clicar em /voltar
+            Essas são as funcionalidades documentadas: ENTER ENTERbuscar_banco 
+            ENTER
+            ENTERVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: 			
+				ENTERpara sair você pode clicar em /sair 
+                ENTERpara voltar ao inicio vc pode clicar em /voltar 
         </template>
     </category>
 
     <category>
         <pattern>CATEGORIAS SISTEMAS</pattern>
         <template>
-            Essas são as categorias dos sistemas: \n
-            buscar_banco
-            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n		
-				para sair você pode clicar em /sair
-				para voltar ao inicio vc pode clicar em /voltar
+            Essas são as categorias dos sistemas: ENTER ENTERbuscar_banco 
+            ENTER
+            ENTERVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: 	
+				ENTERpara sair você pode clicar em /sair 
+				ENTERpara voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 
     <category>
         <pattern>SISTEMAS DOCUMENTADOS</pattern>
         <template>
-            Esses são os sistemas documentados: \n
-            buscar_banco
-            \nVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: \n			
-				para sair você pode clicar em /sair
-				para voltar ao inicio vc pode clicar em /voltar
+            Esses são os sistemas documentados: ENTER ENTERbuscar_banco
+            ENTER
+            ENTERVocê também pode digitar (nome da funconalidade ou nome do sistema ) + (categoria desejada) ou clique na opção desejada: 			
+				ENTERpara sair você pode clicar em /sair 
+				ENTERpara voltar ao inicio vc pode clicar em /voltar
         </template>
     </category>
 

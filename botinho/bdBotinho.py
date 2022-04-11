@@ -2,8 +2,8 @@ from typing import Any, List
 from pymongo import MongoClient
 import util.stringUtil as stringUtil
 import util.jsonUtil as jsonUtil
-DOCUMENTADAS = "documentadas"
 
+DOCUMENTADAS = "documentadas"
 
 URL_BANCO ="mongodb://root:example@127.0.1:27017"
 
@@ -17,11 +17,6 @@ MENSAGEM_BD = "buscar_banco"
 cliente = MongoClient(URL_BANCO)
 meuBanco = cliente["botinho"]
 
-def get_categorias(menssagem):
-    menssagem = stringUtil.remover_categorias(menssagem)
-    colecao=meuBanco[menssagem]
-    documento = colecao.find_one({},{"_id":0})
-    return jsonUtil.get_keys_name(documento)
 
 def get_lista(texto:str, lista:List[Any])->str:
     return "\n".join([item[texto] for item in lista])
@@ -33,6 +28,12 @@ def get_elementos_documentados(mensagem):
     lista = colecao.find({},{name:1,"_id":0})
     return get_lista(name,lista)
 
+def get_categorias(menssagem):
+    menssagem = stringUtil.remover_categorias(menssagem)
+    colecao=meuBanco[menssagem]
+    documento = colecao.find_one({},{"_id":0})
+    return jsonUtil.get_keys_name(documento)
+
 def get_opcoes(mensagem,resposta):
     print (mensagem)
     if CATEGORIAS in mensagem:
@@ -41,9 +42,24 @@ def get_opcoes(mensagem,resposta):
         return resposta.replace(MENSAGEM_BD,get_elementos_documentados(mensagem))
     return resposta
 
-def get_documentaoes(mensagem,resposta):
+def get_dados_by_filtro(filtro, categoria, nomeColecao):
+    colecao = meuBanco[nomeColecao]
+    lista = colecao.find_one({"nome":filtro},{categoria:1,"_id":0})
+    if lista is not None:
+        return jsonUtil.get_values(lista)
+    return lista
 
-    return
+def get_documentaoes(mensagem,resposta):
+    palavras = stringUtil.get_palavras(mensagem)
+    if len(palavras) == 2:
+        consulta = get_dados_by_filtro(palavras[0], palavras[1],'sistemas')
+        if consulta is None:
+            consulta = get_dados_by_filtro(palavras[0],palavras[1],'funcionalidades')
+            if consulta is not None:
+                return consulta
+        else:
+            return consulta
+    return resposta
 
 def get_resposta(mensagem,resposta):
     if resposta == MENSAGEM_DEFAULT:

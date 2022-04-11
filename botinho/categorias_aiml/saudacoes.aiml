@@ -4,11 +4,11 @@
     <category>
         <pattern>OI</pattern>
         <template>
-            Olá, eu sou o bot que vai te ajudar a consultar documentações, o que você gostaria de entender melhor? \n \n
-            Para consultar digite (nome da funconalidade ou nome do sistema)+ (categoria desejada) ou clique na opção desejada:
-            /sistemas
-            /funcionalidades
-            /sair
+            Olá, eu sou o bot que vai te ajudar a consultar documentações, o que você gostaria de entender melhor? ENTER
+            Para consultar digite (nome da funconalidade ou nome do sistema)+ (categoria desejada) ou clique na opção desejada: ENTER
+            /sistemas ENTER
+            /funcionalidades ENTER
+            /sair ENTER
             /ajuda
         </template>
     </category>

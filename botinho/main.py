@@ -11,7 +11,7 @@ def verificar(mensagem):
     return True
 
 def get_resposta(mensagem):
-	resposta = aimlBotinho.get_reposta(mensagem)
+	resposta = aimlBotinho.get_resposta(mensagem)
 	resposta = bdBotinho.get_resposta(mensagem,resposta)
 	return resposta
 
@@ -19,6 +19,6 @@ def get_resposta(mensagem):
 def main(mensagem):
 	textoMensagem = stringUtil.remover_caractares(mensagem.text)
 	resposta = get_resposta(textoMensagem)
-	bot.reply_to(mensagem,resposta)
+	bot.reply_to(mensagem,stringUtil.formatar_resposta(resposta))
 
 bot.polling()

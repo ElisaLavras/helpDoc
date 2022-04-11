@@ -1,4 +1,5 @@
-import re 
+import re
+from typing import List 
 
 CATEGORIAS = "categorias"
 DOCUMENTADOS = "documentados"
@@ -13,5 +14,8 @@ def remover_categorias(texto:str) -> str:
 def remover_documentado(texto:str)->str:
     return texto.replace(DOCUMENTADAS,"").replace(DOCUMENTADOS,"").strip()
 
-def get_palavras(texto):
+def get_palavras(texto:str)->List:
     return texto.split(" ")
+
+def formatar_resposta(texto:str)->str:
+    return texto.replace("ENTER","\n")
